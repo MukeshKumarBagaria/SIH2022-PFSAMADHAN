@@ -18,7 +18,7 @@ function Chatbot() {
 
             <div class="chatbox__header">
                 <div class="chatbox__image--header">
-                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image"/>
+                    <img src="/Images/bot-image.svg" alt="image"/>
                 </div>
                 <div class="chatbox__content--header">
                     <h4 class="chatbox__heading--header">lorem ipsum</h4>
@@ -34,7 +34,7 @@ function Chatbot() {
             </div>
         </div>
         <div class="chatbox__button">
-            <button onClick={handleToggle}><img src="./images/chatbox-icon.svg" ></img></button>
+            <button onClick={handleToggle}><img src="./Images/bot-image.svg" ></img></button>
         </div>
     </div>
 </div>

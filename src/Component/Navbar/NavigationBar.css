@@ -1,0 +1,41 @@
+/* ---------- custom css for navigation bar -----------------  */
+.navbar-custom {
+    background-color: #27408B;
+    padding: 0;
+}
+
+/* -------------- PF SAMADHAN Logo ------------------ */
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+   
+ 
+ }
+ .logo-text{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 2.4rem;
+ color: white;
+ margin-top: 5px;
+ }
+ .pf-text{
+   background-color: #ffa500;
+ width: 52px;
+ height: 52px;
+   text-align: center;
+   border-radius: 50%;
+   display: inline-block;
+ 
+ }
+/* -------------- PF SAMADHAN Logo ------------------ */
+
+
+/* ----------------laguage selection button ---------------- */
+.language-dropdown-button{
+background-color: #ffffff;
+}
+.language-dropdown-button:hover{
+    background-color: #ffffff; 
+}
+/* ----------------laguage selection button ---------------- */

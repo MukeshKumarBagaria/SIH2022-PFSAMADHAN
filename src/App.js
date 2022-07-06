@@ -1,10 +1,11 @@
 import './App.css';
 import Chatbot from './Component/Chatbot/Chatbot';
+import NavigationBar from './Component/Navbar/NavigationBar';
 
 function App() {
   return (
     <div className="App">
-      appp is working
+      <NavigationBar/>
     <Chatbot/>
     </div>
   );

@@ -11,11 +11,13 @@ body {
 }
 
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
+    /* --primaryGradient: linear-gradient(93.12deg, rgb(88, 27, 152) 0.52%, #9C1DE7 100%);
     --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #581B98;
+    --primary: #581B98; */
+    --chatBotHeader:#005170;
+    --chatBotFooter:#1A7CF0;
 }
 
 /* CHATBOX
@@ -106,7 +108,7 @@ body {
 
 /* HEADER */
 .chatbox__header {
-    background: var(--primaryGradient);
+    background: var(--chatBotHeader);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -165,7 +167,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
-    background: var(--secondaryGradient);
+    background: var(--chatBotFooter);
     box-shadow: var(--secondaryBoxShadow);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
